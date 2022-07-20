@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Kanit:wght@300&display=swap');
+
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #5b7f7f, #deffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFF;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+}
+    
+.content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #1560b4;
+    padding: 55px;
+    border-radius: 12px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.top input {
+    width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #0c4290;
+    outline: none;
+    font-size: 1.2rem;
+    background: #00256d; 
+    color: #FFFF;
+}
+
+.top button {
+    width: 45px;
+    border-radius: 12px;
+    outline: none;
+    background: #00256d; 
+    border: 1px solid #0c4290;
+    color: #FFFF;
+
+}
+
+.top button:hover {
+    background: #0c4290;
+    cursor: pointer;
+}
+
